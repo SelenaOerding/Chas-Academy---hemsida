@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* top image*/
+.top {
+  background-image: url(/pics/1picture.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 850px;
+}
+
+/*__________________navigation bar____________________ */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.nav-menu {
+  padding-right: 40px;
+}
+.logo img {
+  width: 70px;
+  padding: 20px 60px;
+}
+
+li {
+  display: inline-block;
+  padding: 25px;
+  color: white;
+  font-size: 1.15rem;
+  font-family: "PT Sans", sans-serif;
+  cursor: pointer;
+}
+.nav button {
+  cursor: pointer;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: #4c64ff;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  padding: 8px 20px;
+  color: white;
+}
+
+/*__________________hero section____________________*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 520px;
+  padding: 144px;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  padding-top: 60px;
+}
+.hero button {
+  cursor: pointer;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: #4c64ff;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  padding: 8px 20px;
+  color: white;
+}
+/* __________________info section____________________*/
+
+.info {
+  display: flex;
+  flex-direction: row;
+  height: 650px;
+  background-color: rgba(236, 236, 236, 0.724);
+  color: rgb(60, 60, 60);
+}
+
+.info img {
+  width: 470px;
+  padding: 90px 90px 90px 140px;
+}
+
+.info-text {
+  font-family: "PT Sans", sans-serif;
+  padding: 110px 200px 10px 20px;
+}
+
+.info-text h1 {
+  font-size: 3rem;
+}
+.info-text p {
+  font-size: 1.2rem;
+}
+
+/*__________________reviews section____________________*/
+.reviews h1 {
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 70px;
+  font-family: "PT Sans", sans-serif;
+  color: rgb(60, 60, 60);
+}
+.reviews h3 {
+  color: rgb(60, 60, 60);
+}
+
+.students {
+  display: flex;
+  gap: 30px;
+  height: 600px;
+  margin: 30px 150px;
+  font-family: "PT Sans", sans-serif;
+}
+
+.reviews img {
+  height: 250px;
+}
+
+.reviews p {
+  color: grey;
+}
