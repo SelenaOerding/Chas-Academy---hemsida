@@ -27,7 +27,7 @@
   padding: 20px 60px;
 }
 
-li {
+.nav-menu li {
   display: inline-block;
   padding: 25px;
   color: white;
@@ -54,7 +54,7 @@ li {
   justify-content: center;
   text-align: center;
   height: 520px;
-  padding: 144px;
+  padding: 230px;
   color: white;
   font-family: "PT Sans", sans-serif;
 }
@@ -81,7 +81,6 @@ li {
 
 .info {
   display: flex;
-  flex-direction: row;
   height: 650px;
   background-color: rgba(236, 236, 236, 0.724);
   color: rgb(60, 60, 60);
@@ -130,4 +129,75 @@ li {
 
 .reviews p {
   color: grey;
+}
+/* __________________Repeated CTA section____________________*/
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+  padding: 50px;
+  height: 300px;
+  color: white;
+  background-color: #4c64ff;
+}
+
+.cta h1 {
+  font-size: 3rem;
+}
+
+.cta button {
+  cursor: pointer;
+  border-radius: 20px;
+  border-style: hidden;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  font-family: "PT Sans", sans-serif;
+  padding: 8px 20px;
+}
+
+/* __________________footer section____________________*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: rgba(236, 236, 236, 0.724);
+  padding: 50px;
+}
+
+.innerfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  align-items: center;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.content a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  margin: 5px;
+  display: inline-block;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: column;
+}
+.contact li {
+  color: black;
+  list-style-type: none;
+}
+
+.footerlogo img {
+  height: 220px;
 }
